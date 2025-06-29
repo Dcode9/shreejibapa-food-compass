@@ -39,7 +39,7 @@ const Services = () => {
   return (
     <section className="py-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             We Are Offering
           </h2>
@@ -52,13 +52,14 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-gradient-to-br from-white to-orange-50"
+              className="border-0 shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-4 bg-gradient-to-br from-white to-orange-50 group animate-fade-in hover:scale-105"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardHeader className="pb-4">
-                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mb-4">
-                  <service.icon className="h-8 w-8 text-white" />
+                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mb-4 group-hover:bg-orange-700 transition-all duration-300 group-hover:scale-110">
+                  <service.icon className="h-8 w-8 text-white transition-transform duration-300 group-hover:rotate-12" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-gray-900">
+                <CardTitle className="text-xl font-semibold text-gray-900 group-hover:text-orange-600 transition-colors duration-300">
                   {service.title}
                 </CardTitle>
               </CardHeader>
