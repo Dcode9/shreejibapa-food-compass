@@ -45,7 +45,7 @@ const About = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-orange-600 mt-1 flex-shrink-0" />
                 <p className="text-gray-700">
-                  <span className="font-semibold">Proven Results:</span> 500+ successful projects with measurable business growth
+                  <span className="font-semibold">Proven Results:</span> 50+ successful projects with measurable business growth
                 </p>
               </div>
               <div className="flex items-start space-x-3">
