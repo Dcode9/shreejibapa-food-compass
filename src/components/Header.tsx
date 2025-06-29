@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Beaker } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,9 +19,11 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center">
-              <Beaker className="h-6 w-6 text-white" />
-            </div>
+            <img 
+              src="/lovable-uploads/8b5a724c-8259-4387-808b-b9419cd9e878.png" 
+              alt="Shreejibappa Foods Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <span className="text-xl font-bold text-gray-900">Shreejibappa Foods</span>
           </div>
 
