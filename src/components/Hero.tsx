@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, TrendingUp, Award } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="relative bg-gradient-to-br from-orange-50 to-amber-50 py-20 px-6">
+  return <section className="relative bg-gradient-to-br from-orange-50 to-amber-50 py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -33,14 +30,14 @@ const Hero = () => {
                 <div className="flex justify-center mb-2">
                   <Users className="h-8 w-8 text-orange-600" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">100+</div>
+                <div className="text-2xl font-bold text-gray-900">20+</div>
                 <div className="text-sm text-gray-600">Happy Clients</div>
               </div>
               <div className="text-center">
                 <div className="flex justify-center mb-2">
                   <TrendingUp className="h-8 w-8 text-orange-600" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">18+</div>
+                <div className="text-2xl font-bold text-gray-900">23+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="text-center">
@@ -55,11 +52,7 @@ const Hero = () => {
 
           <div className="relative">
             <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8">
-              <img 
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop" 
-                alt="Food and Beverages R&D Lab" 
-                className="w-full h-80 object-cover rounded-lg"
-              />
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop" alt="Food and Beverages R&D Lab" className="w-full h-80 object-cover rounded-lg" />
               <div className="absolute -top-4 -right-4 bg-orange-600 text-white p-4 rounded-full">
                 <Award className="h-8 w-8" />
               </div>
@@ -68,8 +61,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

@@ -1,9 +1,6 @@
-
 import { Beaker, Phone, Mail, MapPin, Linkedin } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white py-16 px-6">
+  return <footer className="bg-gray-900 text-white py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
@@ -54,12 +51,13 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-orange-600" />
                 <div>
                   <div className="text-gray-400">+91 9075078993</div>
-                  <div className="text-gray-400">+91 7029052441</div>
+                  <div className="text-gray-400">+91 9111786332
++91 8730831986</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-orange-600" />
-                <span className="text-gray-400">info.shreejibapafoods@gmail.com</span>
+                <span className="text-gray-400">rahulkumar.shah@shreejibapafoods.in</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-orange-600 mt-1" />
@@ -79,8 +77,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
