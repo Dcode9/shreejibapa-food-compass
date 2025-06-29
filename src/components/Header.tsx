@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, ChefHat } from "lucide-react";
+import { Menu, X, Beaker } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,8 +9,8 @@ const Header = () => {
   const navItems = [
     { name: "Home", href: "#home" },
     { name: "Services", href: "#services" },
+    { name: "Products", href: "#products" },
     { name: "About", href: "#about" },
-    { name: "Testimonials", href: "#testimonials" },
     { name: "Contact", href: "#contact" }
   ];
 
@@ -20,9 +20,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center">
-              <ChefHat className="h-6 w-6 text-white" />
+              <Beaker className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">Shreejibapa Foods</span>
+            <span className="text-xl font-bold text-gray-900">Shreejibappa Foods</span>
           </div>
 
           {/* Desktop Navigation */}

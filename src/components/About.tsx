@@ -6,18 +6,18 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: "Precision",
-      description: "Data-driven solutions with meticulous attention to detail"
+      title: "Innovation",
+      description: "Product, Process and Packaging Innovation expertise"
     },
     {
       icon: Heart,
-      title: "Passion",
-      description: "Genuine love for food and helping businesses succeed"
+      title: "Quality",
+      description: "Commitment to excellence in food and beverage development"
     },
     {
       icon: Zap,
-      title: "Innovation",
-      description: "Cutting-edge approaches to traditional food challenges"
+      title: "Experience",
+      description: "18 years of industry experience with 10 years in product development"
     }
   ];
 
@@ -28,10 +28,10 @@ const About = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-4xl font-bold text-gray-900">
-                About Shreejibapa Foods
+                About Shreejibappa Foods
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                With over 15 years of experience in the food industry, Shreejibapa Foods has been at the forefront of food consultancy, helping businesses transform their operations and achieve remarkable success.
+                Shreejibappa Foods (SBF) is a well-established and reputed consultancy firm based in Pune, India. Founded by Dr. Rahulkumar Shah, our company was established on 1st September 2022 in the central smart city of India, Pune, Maharashtra.
               </p>
             </div>
 
@@ -39,19 +39,19 @@ const About = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-orange-600 mt-1 flex-shrink-0" />
                 <p className="text-gray-700">
-                  <span className="font-semibold">Industry Expertise:</span> Deep knowledge across all food sectors from restaurants to manufacturing
+                  <span className="font-semibold">Founder:</span> Dr. Rahulkumar Shah with 18 years of industry experience
                 </p>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-orange-600 mt-1 flex-shrink-0" />
                 <p className="text-gray-700">
-                  <span className="font-semibold">Proven Results:</span> 50+ successful projects with measurable business growth
+                  <span className="font-semibold">Specialization:</span> 10 years of hands-on product development experience in beverages
                 </p>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-orange-600 mt-1 flex-shrink-0" />
                 <p className="text-gray-700">
-                  <span className="font-semibold">Certified Team:</span> Food scientists, business strategists, and industry specialists
+                  <span className="font-semibold">Location:</span> Based in Pune, Maharashtra - Central Smart City of India
                 </p>
               </div>
             </div>
@@ -77,22 +77,22 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4">
               <img 
                 src="https://images.unsplash.com/photo-1577308856961-8e4916b6c0de?w=300&h=400&fit=crop" 
-                alt="Food consultation meeting" 
+                alt="Food and beverage consultation" 
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
               />
               <img 
                 src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=300&fit=crop" 
-                alt="Food quality testing" 
+                alt="R&D Laboratory" 
                 className="w-full h-48 object-cover rounded-lg shadow-lg mt-8"
               />
               <img 
                 src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=300&h=300&fit=crop" 
-                alt="Restaurant kitchen consultation" 
+                alt="Product development" 
                 className="w-full h-48 object-cover rounded-lg shadow-lg -mt-8"
               />
               <img 
                 src="https://images.unsplash.com/photo-1556909015-f7c3c73875de?w=300&h=400&fit=crop" 
-                alt="Food business strategy" 
+                alt="Quality testing" 
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
               />
             </div>

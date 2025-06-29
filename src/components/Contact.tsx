@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -11,10 +11,10 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Ready to Transform Your Food Business?
+            Any Questions? Feel Free to Contact Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get in touch with our expert consultants today. Let's discuss how we can help you achieve your food business goals.
+            Get in touch with our expert consultants today. Let's discuss how we can help you achieve your food and beverage business goals.
           </p>
         </div>
 
@@ -29,8 +29,8 @@ const Contact = () => {
                   <CardTitle className="text-lg">Call Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">+91 98765 43210</p>
-                  <p className="text-gray-600">+91 87654 32109</p>
+                  <p className="text-gray-600">+91 9075078993</p>
+                  <p className="text-gray-600">+91 7029052441</p>
                 </CardContent>
               </Card>
 
@@ -42,12 +42,11 @@ const Contact = () => {
                   <CardTitle className="text-lg">Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">info@shreejibapafoods.com</p>
-                  <p className="text-gray-600">consult@shreejibapafoods.com</p>
+                  <p className="text-gray-600">info.shreejibapafoods@gmail.com</p>
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-lg bg-white">
+              <Card className="border-0 shadow-lg bg-white sm:col-span-2">
                 <CardHeader className="pb-4">
                   <div className="w-12 h-12 bg-orange-600 rounded-full flex items-center justify-center mb-2">
                     <MapPin className="h-6 w-6 text-white" />
@@ -56,9 +55,11 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    123 Food Street<br />
-                    Business District<br />
-                    Mumbai, Maharashtra 400001
+                    511, GRAND CASA, PAWAR NAGAR,<br />
+                    THERGAON LINK ROAD,<br />
+                    NEAR VARDHMAN VATIKA,<br />
+                    BESIDE SUKHAWANI KINGSLEY,<br />
+                    CHICNHWAD, PUNE- 411033
                   </p>
                 </CardContent>
               </Card>
@@ -66,16 +67,12 @@ const Contact = () => {
               <Card className="border-0 shadow-lg bg-white">
                 <CardHeader className="pb-4">
                   <div className="w-12 h-12 bg-orange-600 rounded-full flex items-center justify-center mb-2">
-                    <Clock className="h-6 w-6 text-white" />
+                    <Linkedin className="h-6 w-6 text-white" />
                   </div>
-                  <CardTitle className="text-lg">Business Hours</CardTitle>
+                  <CardTitle className="text-lg">Connect With Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">
-                    Mon - Fri: 9:00 AM - 6:00 PM<br />
-                    Sat: 10:00 AM - 4:00 PM<br />
-                    Sun: Closed
-                  </p>
+                  <p className="text-gray-600">Follow us on LinkedIn for updates and industry insights</p>
                 </CardContent>
               </Card>
             </div>

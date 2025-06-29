@@ -1,38 +1,38 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ChefHat, BarChart3, Users, Lightbulb, FileCheck, TrendingUp } from "lucide-react";
+import { Beaker, FileCheck, Lightbulb, BarChart3, Shield, Utensils } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: ChefHat,
-      title: "Recipe Development",
-      description: "Create innovative recipes that align with your brand and market demands while ensuring scalability and cost-effectiveness."
+      icon: Beaker,
+      title: "Beverage Application Lab",
+      description: "State-of-the-art laboratory facilities for beverage development and testing with advanced equipment and quality control systems."
     },
     {
-      icon: BarChart3,
-      title: "Market Analysis",
-      description: "Comprehensive market research and analysis to identify opportunities and position your products for maximum success."
-    },
-    {
-      icon: Users,
-      title: "Menu Engineering",
-      description: "Optimize your menu for profitability, customer satisfaction, and operational efficiency with data-driven insights."
+      icon: Utensils,
+      title: "Food & Beverages Formulation",
+      description: "Expert formulation services for creating innovative food and beverage products that meet market demands and quality standards."
     },
     {
       icon: Lightbulb,
-      title: "Product Innovation",
-      description: "Develop new food products that meet consumer trends and regulatory requirements while maintaining quality standards."
+      title: "Recipes and Menu Development",
+      description: "Creative recipe development and menu engineering services to help restaurants and food businesses optimize their offerings."
+    },
+    {
+      icon: BarChart3,
+      title: "Process Development",
+      description: "Comprehensive process optimization and development services to ensure efficient production and consistent quality."
+    },
+    {
+      icon: Shield,
+      title: "Food Safety and Quality Audits",
+      description: "Thorough food safety audits and quality assurance services to ensure compliance with industry standards and regulations."
     },
     {
       icon: FileCheck,
-      title: "Quality Assurance",
-      description: "Implement robust quality control systems to ensure consistent product quality and regulatory compliance."
-    },
-    {
-      icon: TrendingUp,
-      title: "Business Strategy",
-      description: "Strategic planning and business development services to scale your food business and increase profitability."
+      title: "Technical Regulatory Support",
+      description: "Expert guidance on regulatory compliance, nutritional panel designing as per FSSAI guidelines for packed products."
     }
   ];
 
@@ -41,10 +41,10 @@ const Services = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Our Expert Services
+            We Are Offering
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive food consultancy solutions designed to help your business grow, innovate, and succeed in today's competitive market.
+            Comprehensive food and beverage consultancy solutions with specialized focus on product, process and packaging innovation.
           </p>
         </div>
 
