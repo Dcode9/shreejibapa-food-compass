@@ -59,12 +59,14 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4 animate-cinematic-fade" style={{ animationDelay: '0.5s' }}>
-            <Button 
-              variant="ghost" 
-              className="text-stone-700 hover:text-stone-900 hover:bg-stone-50 premium-hover"
-            >
-              Call Now
-            </Button>
+            <a href="tel:+91-8600446161" className="no-underline">
+              <Button 
+                variant="ghost" 
+                className="text-stone-700 hover:text-stone-900 hover:bg-stone-50 premium-hover"
+              >
+                Call Now
+              </Button>
+            </a>
             <Link to="/contact">
               <Button className="bg-stone-800 hover:bg-stone-900 text-stone-50 premium-hover animate-soft-glow">
                 Start Project
@@ -104,12 +106,14 @@ const Header = () => {
                 </Link>
               ))}
               <div className="flex flex-col space-y-3 pt-4">
-                <Button 
-                  variant="ghost" 
-                  className="text-stone-700 hover:text-stone-900 hover:bg-stone-50 w-full justify-start premium-hover"
-                >
-                  Call Now
-                </Button>
+                <a href="tel:+91-8600446161" className="no-underline">
+                  <Button 
+                    variant="ghost" 
+                    className="text-stone-700 hover:text-stone-900 hover:bg-stone-50 w-full justify-start premium-hover"
+                  >
+                    Call Now
+                  </Button>
+                </a>
                 <Link to="/contact">
                   <Button className="bg-stone-800 hover:bg-stone-900 text-stone-50 w-full premium-hover animate-soft-glow">
                     Start Project

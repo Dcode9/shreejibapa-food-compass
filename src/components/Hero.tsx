@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, TrendingUp, Award, Beaker, Droplets } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -39,20 +40,24 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-6 animate-cinematic-fade" style={{ animationDelay: '1.6s' }}>
-              <Button 
-                size="lg" 
-                className="bg-stone-800 hover:bg-stone-900 text-stone-50 px-10 py-6 text-lg premium-hover border-0 animate-soft-glow"
-              >
-                Begin Your Journey
-                <ArrowRight className="ml-3 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-              </Button>
-              <Button 
-                variant="ghost" 
-                size="lg" 
-                className="text-stone-700 hover:text-stone-900 px-10 py-6 text-lg soft-underline hover:bg-transparent"
-              >
-                Explore Our Craft
-              </Button>
+              <Link to="/contact">
+                <Button 
+                  size="lg" 
+                  className="bg-stone-800 hover:bg-stone-900 text-stone-50 px-10 py-6 text-lg premium-hover border-0 animate-soft-glow"
+                >
+                  Begin Your Journey
+                  <ArrowRight className="ml-3 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+                </Button>
+              </Link>
+              <Link to="/expertise">
+                <Button 
+                  variant="ghost" 
+                  size="lg" 
+                  className="text-stone-700 hover:text-stone-900 px-10 py-6 text-lg soft-underline hover:bg-transparent"
+                >
+                  Explore Our Craft
+                </Button>
+              </Link>
             </div>
 
             <div className="grid grid-cols-3 gap-12 pt-16">
