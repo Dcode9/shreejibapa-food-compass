@@ -11,7 +11,7 @@ const ContactPage = () => {
       icon: Phone,
       title: "Call Us",
       description: "Ready to discuss your next big idea?",
-      action: "+91 98765 43210",
+      action: "+91 90755078993",
       gradient: "from-blue-500 to-cyan-600"
     },
     {
