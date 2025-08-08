@@ -59,7 +59,7 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4 animate-cinematic-fade" style={{ animationDelay: '0.5s' }}>
-            <a href="tel:+91-8600446161" className="no-underline">
+            <a href="tel:+91-9075078993" className="no-underline">
               <Button 
                 variant="ghost" 
                 className="text-stone-700 hover:text-stone-900 hover:bg-stone-50 premium-hover"
@@ -106,7 +106,7 @@ const Header = () => {
                 </Link>
               ))}
               <div className="flex flex-col space-y-3 pt-4">
-                <a href="tel:+91-8600446161" className="no-underline">
+                <a href="tel:+91-9075078993" className="no-underline">
                   <Button 
                     variant="ghost" 
                     className="text-stone-700 hover:text-stone-900 hover:bg-stone-50 w-full justify-start premium-hover"
